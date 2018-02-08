@@ -5,7 +5,7 @@ function activate(context) {
     const disposable = vscode.commands.registerCommand('extension.gitUrgent', function () {
         return vscode.commands.executeCommand('git.stageAll').then(() => {
             return vscode.commands.executeCommand('git.commitStaged').then(() => {
-                return vscode.commands.executeCommand('git.push');
+                return vscode.commands.executeCommand('git.sync');
             });
         });
     });

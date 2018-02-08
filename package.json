@@ -2,7 +2,7 @@
     "name": "git-urgent",
     "displayName": "Git Urgent!",
     "description": "Search `Git Urgent!` in Command Palette. Then you can git add all, commit, push with a single command",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "arafathusayn",
     "engines": {
         "vscode": "^1.5.0"
