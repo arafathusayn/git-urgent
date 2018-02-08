@@ -9,4 +9,4 @@ Search `Git Urgent!` in Command Palette. Then you can git add all, commit, push 
 3. If you see 'Git Urgent!', hit Enter.
 4. Write commit message and press Enter. That's all!
 
-  **Enjoy!**
+**Enjoy!**
