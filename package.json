@@ -1,42 +1,40 @@
 {
-    "name": "git-urgent",
-    "displayName": "Git Urgent!",
-    "description": "Search `Git Urgent!` in Command Palette. Then you can git add all, commit, push with a single command",
-    "version": "1.0.0",
-    "publisher": "arafathusayn",
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Other"
-    ],
-    "icon": "icon128.png",
-    "activationEvents": [
-        "onCommand:extension.gitUrgent"
-    ],
-    "main": "./extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.gitUrgent",
-                "title": "Git Urgent!"
-            }
-        ]
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "eslint": "^4.6.1",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ArafatHusayn/git-urgent.git"
-    },
-    "homepage": "https://github.com/ArafatHusayn/git-urgent/blob/master/README.md"
+  "name": "git-urgent",
+  "displayName": "Git Urgent!",
+  "description": "Search `Git Urgent!` in Command Palette. Then you can git add all, commit, push with a single command",
+  "version": "1.0.1",
+  "publisher": "arafathusayn",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "icon128.png",
+  "activationEvents": [
+    "onCommand:extension.gitUrgent"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.gitUrgent",
+        "title": "Git Urgent!"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "eslint": "*",
+    "typescript": "*",
+    "vscode": "^1.1.37"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArafatHusayn/git-urgent.git"
+  },
+  "homepage": "https://github.com/ArafatHusayn/git-urgent/blob/master/README.md"
 }
